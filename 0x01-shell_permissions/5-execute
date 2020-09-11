@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u=xxx /hello
+chmod 754 hello
