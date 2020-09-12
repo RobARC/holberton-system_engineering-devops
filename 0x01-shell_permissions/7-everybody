@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod = $var; $var 777 hello
+chmod ugo+x hello
