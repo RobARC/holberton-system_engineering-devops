@@ -1,14 +1,14 @@
 .TH man 8 "07 Nov 2020" "0.0" "0x01. Shell, permissions"
 
-.SH NAME PROJECT
+.SH NAME
 
 0x01. Shell, permissions
 
-.SH LEARNING OBJETIVES
+.SH SYNOPSIS
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
-.SH Permissions
+.SH DESCRIPTION
 
 What do the commands chmod, sudo, su, chown, chgrp do
 Linux file permissions
@@ -18,7 +18,7 @@ Why can’t a normal user chown a file
 How to run a command with root privileges
 How to change user ID or become superuser
 
-.SH Other Man Pages
+.SH OPTIONS
 
 How to create a user
 How to create a group
@@ -27,7 +27,9 @@ How to print the groups a user is in
 How to print the effective userid
 
 
-.SH REQUERIMENTS
+.SH SEE ALSO
+
+REQUERIMENTS
 
 General
 Allowed editors: vi, vim, emacs
@@ -38,3 +40,11 @@ The first line of all your files should be exactly #!/bin/bash
 A README.md file, at the root of the folder of the project, describing what each script is doing
 You are not allowed to use backticks, &&, || or ;
 All your files must be executable
+
+.SH BUGS
+
+No known bugs
+
+SH. AUTHOR
+
+Roberth Rondon C.
