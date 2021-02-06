@@ -2,7 +2,7 @@
 # script that displays Holberton School 10 times, but for the 9th iteration,
 # displays Holberton School and then Hi on a new line.
 
-var=9
+var=10
 
 while [ $var -gt 0 ]
 do
