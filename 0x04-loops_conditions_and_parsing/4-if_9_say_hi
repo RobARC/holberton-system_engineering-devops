@@ -11,6 +11,6 @@ do
 	then
 		echo "Hi"
 	fi
-	echo "Holberton Scholl"
+	echo "Holberton School"
 	var=$(( var - 1))
 done
