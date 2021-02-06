@@ -5,18 +5,18 @@
 #displays 9 and then bad luck from Japan for the 9th loop iteration
 #displays 17 and then bad luck from Italy for the 17th loop iteration
 
-var=20
+var=1
 
-while [ $var -gt 0 ]
+while [ $var -le 20 ]
 	do
 
 	case $var in
 		
-		"4") echo "bad luck from China"
-		"9") echo "bad luck from Japan"
-		"17") echo "bad luck from Italy"
+		"5") echo "bad luck from China";;
+		"10") echo "bad luck from Japan";;
+		"18") echo "bad luck from Italy";;
 	esac
-	echo "Holberton Scholl"
+	echo "$var"
 	
-	var=$(( var - 1))
+	var=$(( var + 1))
 done
