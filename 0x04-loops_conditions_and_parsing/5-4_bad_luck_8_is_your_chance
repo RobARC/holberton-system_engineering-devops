@@ -18,7 +18,7 @@ do
 	then
 		echo "bad luck"
 	else
-	echo "Holberton Scholl"
+	echo "Holberton School"
 	fi
 	var=$(( var - 1))
 done
