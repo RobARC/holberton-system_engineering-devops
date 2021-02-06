@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+#Write a Bash script that loops from 1 to 10 and:
+
+#displays bad luck for the 4th loop iteration
+#displays good luck for the 8th loop iteration
+#displays Holberton School for the other iterations
+
+var=10
+
+while [ $var -gt 0 ]
+do
+
+	if [ $var -eq 3 ]
+	then
+		echo "good luck"
+	
+	elif [ $var -eq 7 ]
+	then
+		echo "bad luck"
+	else
+	echo "Holberton Scholl"
+	fi
+	var=$(( var - 1))
+done

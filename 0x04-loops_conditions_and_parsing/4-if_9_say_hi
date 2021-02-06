@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# script that displays Holberton School 10 times, but for the 9th iteration,
+# displays Holberton School and then Hi on a new line.
+
+var=9
+
+while [ $var -gt 0 ]
+do
+	
+	if [ $var -eq 1 ]
+	then
+		echo "Hi"
+	fi
+	echo "Holberton Scholl"
+	var=$(( var - 1))
+done

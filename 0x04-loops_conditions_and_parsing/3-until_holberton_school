@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# script that displays Holberton School 10 times using until command
+
+var=10
+
+until [ $var -eq 0 ]
+do
+	echo "Holberton School"
+	var=$(( var - 1))
+done

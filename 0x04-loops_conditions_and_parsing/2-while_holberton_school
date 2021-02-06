@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Write a Bash script that displays Holberton School 10 times
+var=10
+while [ $var -gt 0 ]
+do
+	echo "Holberton Scholl"
+	var=$(( var - 1 ))
+done
