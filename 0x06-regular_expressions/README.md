@@ -7,6 +7,8 @@ For this project, you have to build your regular expression using Oniguruma, a r
 
 Because the focus of this exercise is to play with regular expressions (regex), here is the Ruby code that you should use, just replace the regexp part, meaning the code in between the //:
 
+![readme1](https://user-images.githubusercontent.com/70755672/108788696-956c5f00-7546-11eb-80ee-7f6a35ddf297.png)
+
 # Resources
 Read or watch:
 
