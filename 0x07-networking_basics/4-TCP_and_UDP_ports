@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+sudo -netsudo netstat -tulp | sudo netstat -lp
