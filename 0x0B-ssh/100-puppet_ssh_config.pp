@@ -1,4 +1,5 @@
 #Using Puppet to make changes to our ssh configuration file
+include stdlib
 
 file { 'Ensure file':
   ensure => 'present',
@@ -10,10 +11,10 @@ file { 'Ensure file':
 file_line { 'Turn off password auth':
   ensure => 'present',
   path   => '/etc/ssh/ssh_config',
-  line   => 'PasswordAuthentication no'
+  line   => '   PasswordAuthentication no'
 }
 file_line { 'Declare identity file':
   ensure => 'present',
   path   => '/etc/ssh/ssh_config',
-  line   => 'IdentifyFile ~/.ssh/holberton'
+  line   => '   IdentifyFile ~/.ssh/holberton'
 }
