@@ -4,5 +4,4 @@ exec { 'killmenow':
  command  => 'pkill -f killmenow',
  user     => 'root',
  provider => 'shell',
-
 }  
