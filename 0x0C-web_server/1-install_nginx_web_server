@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# install ngix, setup it up on port 80 HTTP and write Holberton School in index file
+apt-get -y update
+apt-get -y install nginx
+echo 'Holberton School' > /var/www/html/index.nginx-debian.html
+service nginx start
