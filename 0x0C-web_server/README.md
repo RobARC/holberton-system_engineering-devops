@@ -3,15 +3,15 @@
 ## Concepts
 For this project, students are expected to look at these concepts:
 
-<li>[DNS](https://intranet.hbtn.io/concepts/12)</li>
-<li>[Web Server](https://intranet.hbtn.io/concepts/17)</li>
-<li>[CI/CD](https://intranet.hbtn.io/concepts/43)</li>
-<li>[Docker](https://intranet.hbtn.io/concepts/65)</li>
-<li>[Web stack debugging](https://intranet.hbtn.io/concepts/68)</li>
-<li>[What is a Child Process?](https://intranet.hbtn.io/concepts/110)</li>
-<li>[DevOps](https://intranet.hbtn.io/concepts/124)</li>
-<li>[System Administration](https://intranet.hbtn.io/concepts/125)</li>
-<li>[Site Reliability Engineering](https://intranet.hbtn.io/concepts/126)</li>
+##### <li>[DNS](https://intranet.hbtn.io/concepts/12)</li>
+##### <li>[Web Server](https://intranet.hbtn.io/concepts/17)</li>
+##### <li>[CI/CD](https://intranet.hbtn.io/concepts/43)</li>
+##### <li>[Docker](https://intranet.hbtn.io/concepts/65)</li>
+##### <li>[Web stack debugging](https://intranet.hbtn.io/concepts/68)</li>
+##### <li>[What is a Child Process?](https://intranet.hbtn.io/concepts/110)</li>
+##### <li>[DevOps](https://intranet.hbtn.io/concepts/124)</li>
+##### <li>[System Administration](https://intranet.hbtn.io/concepts/125)</li>
+##### <li>[Site Reliability Engineering](https://intranet.hbtn.io/concepts/126)</li>
 
 ## Background Context
 
@@ -44,20 +44,20 @@ Check out the Docker concept page for more info about how to manipulate containe
 ## Resources
 <b>Read or watch:</b>
 
-<li>[How the web works](https://intranet.hbtn.io/rltoken/4tRRzyyETAySzU-bgNGLSw)</li>
-<li>[Nginx](https://intranet.hbtn.io/rltoken/H9OfhUnBDdxV-QQnIucMlA)</li>
-<li>[How to Configure Nginx](https://intranet.hbtn.io/rltoken/wePwmjbJDgJZO7YPvffWxQ)</li>
-<li>Child process concept page]
-<li>[Root and sub domain](https://intranet.hbtn.io/rltoken/qkpso3mgcpv3tPUhBrZBOA)</li>
-<li>[HTTP requests](https://intranet.hbtn.io/rltoken/C9s3U62JbiOAvn9WCoxKsA)</li>
-<li>[HTTP redirection](https://intranet.hbtn.io/rltoken/kI4vRQ6vc45Wfbdo3UD8Lw)</li>
-<li>[Not found HTTP response code](https://intranet.hbtn.io/rltoken/5UvC588x2hZR7dm6eRFPoQ)</li>
-<li>[Logs files on Linux](https://intranet.hbtn.io/rltoken/bkqQ72HZVAV65G8nB503Pw)</li>
+##### <li>[How the web works](https://intranet.hbtn.io/rltoken/4tRRzyyETAySzU-bgNGLSw)</li>
+##### <li>[Nginx](https://intranet.hbtn.io/rltoken/H9OfhUnBDdxV-QQnIucMlA)</li>
+##### <li>[How to Configure Nginx](https://intranet.hbtn.io/rltoken/wePwmjbJDgJZO7YPvffWxQ)</li>
+##### <li>Child process concept page]
+##### <li>[Root and sub domain](https://intranet.hbtn.io/rltoken/qkpso3mgcpv3tPUhBrZBOA)</li>
+##### <li>[HTTP requests](https://intranet.hbtn.io/rltoken/C9s3U62JbiOAvn9WCoxKsA)</li>
+##### <li>[HTTP redirection](https://intranet.hbtn.io/rltoken/kI4vRQ6vc45Wfbdo3UD8Lw)</li>
+##### <li>[Not found HTTP response code](https://intranet.hbtn.io/rltoken/5UvC588x2hZR7dm6eRFPoQ)</li>
+##### <li>[Logs files on Linux](https://intranet.hbtn.io/rltoken/bkqQ72HZVAV65G8nB503Pw)</li>
 For reference:
 
-<li>[RFC 7231 (HTTP/1.1)](https://intranet.hbtn.io/rltoken/gdZet6dJ30MzaeoucXCfRA)</li>
-<li>[RFC 7540 (HTTP/2)](https://intranet.hbtn.io/rltoken/EWo6KcJSfShUKLPqzeiXqQ)</li>
+##### <li>[RFC 7231 (HTTP/1.1)](https://intranet.hbtn.io/rltoken/gdZet6dJ30MzaeoucXCfRA)</li>
+##### <li>[RFC 7540 (HTTP/2)](https://intranet.hbtn.io/rltoken/EWo6KcJSfShUKLPqzeiXqQ)</li>
 man or help:
 
-<li>scpl</li>
-<li>curl</li>
+##### <li>scpl</li>
+##### <li>curl</li>
