@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Scrip that install ngnix and configure web-server-01 
+
+apt-get -y update
+apt-get -y install nginx
+
+echo 'Holberton School' > /var/www/html/index.html
+ufw allow 80 # permisos para el puerto 80
+
+sudo sed -i "/listen 80 default_server;/a rewrite ^/redirect_me https://www.roberth.tech permanent;" /etc/nginx/sites-available/default
+
+echo "Ceci n'est pas une page" > /var/www/html/custom_404.html
+sed -i '/server_name _;/ a error_page 404 /custom_404.html;' /etc/nginx/sites-available/default
+
+sed -i "/server_name _;/a add_header X-Served-By $HOSTNAME;" /etc/nginx/sites-available/default
+service nginx restart
