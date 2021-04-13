@@ -6,9 +6,9 @@ echo "
 frontend roberth.tech
 	 bind *:80
 	 mode http
-	 default_backend my_server
+	 default_backend web_servers
 
-backend my_servers
+backend web_servers
 	balance roundrobin
 	server 2474-web-01 34.74.177.231:80 check
 	server 2474-web-02 54.157.30.160:80 check" >> /etc/haproxy/haproxy.cfg
