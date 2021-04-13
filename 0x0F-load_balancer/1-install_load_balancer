@@ -13,5 +13,5 @@ backend web_servers
 	balance roundrobin
 	option forwardfor
 	server 2474-web-01 34.74.177.231:80 check
-	server 2474-web-02 54.157.30.160:80 check" >> /etc/haproxy/haproxy.cfg
+	server 2474-web-02 54.157.57.160:80 check" >> /etc/haproxy/haproxy.cfg
 sudo service haproxy restart
