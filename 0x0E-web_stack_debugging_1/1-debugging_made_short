@@ -2,4 +2,4 @@
 #install nginx
 rm -rf /etc/nginx/sites-enabled
 ln -s /etc/nginx/sites-available /etc/nginx/sites-enabled
-sudo service nginx stop
+sudo service nginx restart
