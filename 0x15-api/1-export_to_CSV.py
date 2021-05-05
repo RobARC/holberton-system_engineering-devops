@@ -14,7 +14,7 @@ def main(argv):
     user_id = argv[1]
     user = url + '/users/{}'.format(user_id)
     todos = url + '/todos/?userId={}'.format(user_id)
-    name = requests.get(user).json().get('name')
+    name = requests.get(user).json().get('username')
     request_todo = requests.get(todos).json()
 
     with open('{}.csv'.format(user_id), 'w+') as file:
