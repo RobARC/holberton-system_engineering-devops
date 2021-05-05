@@ -19,12 +19,12 @@ def main(argv):
     tasks = []
 
     with open('{}.json'.format(user_id), 'w+') as file:
-            for todo in request_todo:
-                task = {"task": todo.get('title'),
-                        "completed": todo.get('completed'), "username": name}
-                tasks.append(task)
-            info = {user_id: task}
-            file.write(json.dumps(info))
+        for todo in request_todo:
+            task = {"task": todo.get('title'),
+                    "completed": todo.get('completed'), "username": name}
+            tasks.append(task)
+        info = {user_id: task}
+        file.write(json.dumps(info))
 
 
 if __name__ == "__main__":
