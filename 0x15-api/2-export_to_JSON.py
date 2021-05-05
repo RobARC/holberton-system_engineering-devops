@@ -23,7 +23,7 @@ def main(argv):
             task = {"task": todo.get('title'),
                     "completed": todo.get('completed'), "username": name}
             tasks.append(task)
-        info = {user_id: task}
+        info = {user_id: tasks}
         file.write(json.dumps(info))
 
 
