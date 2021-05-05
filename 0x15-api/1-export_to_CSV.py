@@ -2,9 +2,9 @@
 """ Export data  information in CSV format. """
 
 
+import csv
 import requests
 from sys import argv
-import csv
 
 
 def main(argv):
